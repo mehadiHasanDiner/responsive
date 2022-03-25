@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Album</title>
+    <style>
+      .photo-album {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .photo-frame {
+        width: 300px;
+        border: 2px solid gold;
+        position: relative;
+        border-radius: 10px;
+        margin: 15px;
+        overflow: hidden;
+      }
+
+      .photo-frame img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .photo-detail {
+        display: none;
+        position: absolute;
+        width: 300px;
+        top: 0;
+        padding: 2px;
+      }
+
+      .photo-detail h3 {
+        background-color: black;
+        color: white;
+      }
+      .photo-frame:hover .photo-detail {
+        display: block;
+        background-color: rgba(255, 217, 0, 0.556);
+        border-radius: 10px;
+      }
+
+      .photo-frame:hover img {
+        transform: scale(1.2) rotate(-360deg);
+        transition: transform 2s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Deer Album</h3>
+    <div class="photo-album">
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo"><img src="images/deer.jpg" alt="" /></div>
+        <div class="photo-detail">
+          <h3>Deer album</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            veritatis sunt animi non quisquam accusantium expedita unde.
+            Incidunt eum est, corporis earum culpa iure recusandae asperiores,
+            quo sapiente nam impedit quas soluta facere dolorem, accusantium
+            dicta eveniet. Fugit animi quis molestiae sint molestias ipsa
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
